@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        <div class="main-pic__cont">
+          <div class="main-pic__pic">
+            <img class="main-pic" src="./img/main-pic.jpg" alt="Main picture" />
+          </div>
+          <div class="main-pic__avatar">
+            <img class="avatar" src="./img/avatar.jpg" alt="My photo" />
+          </div>
+        </div>
+        <div class="me__cont">
+          <div class="me__name">Дмитрий Сычёв</div>
+          <div class="me__title">Блог Front-end разработчика</div>
+          <div class="me__social">
+            <div class="me__social--fb">
+              <a href="#"><img src="./img/fb-icon.png" alt="Facebook" class="fb-pic" /></a>
+            </div>
+            <div class="me__social--tg">
+              <a href="#"><img src="./img/tg-icon.png" alt="Telegram" class="tg-pic" /></a>
+            </div>
+            <div class="me__social--insta">
+              <a href="#"><img
+                src="./img/insta-pic.png"
+                alt="Instagram"
+                class="insta-pic"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="about-me__cont">
+          <p class="about-me__text">
+            Front-end разработчик. Практик верстки сайтов. Созданием сайтов
+            занимаюсь с 2012 года. Работал в нескольких ИТ компаниях и наработал
+            более 10 000 часов в создании сайтов различной сложности.
+          </p>
+        </div>
+        <div class="buttons__cont">
+          <a class="buttons__my-works" href="#">Мои работы</a>
+          <a class="buttons__mail-me" href="mailto:dmtr.schv@gmail.com"
+            >Написать мне</a
+          >
+        </div>
+      </aside>
+      <div class="main-cont">
+        <header>
+          <nav class="nav-panel">
+            <ul class="nav-panel__list">
+              <li class="nav-panel__item"><a href="#">Главная</a></li>
+              <li class="nav-panel__item">
+                <div id="menu-btn" class="nav-panel__item-menu">
+                  Статьи
+                  <ul class="nav-panel__item-menu--list">
+                    <li><a href="#">Создание сайтов</a></li>
+                    <li><a href="#">Интернет-маркетинг</a></li>
+                    <li><a href="#">Продвижение видео</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-panel__item"><a href="#">Обо мне</a></li>
+              <li class="nav-panel__item"><a href="#">Реклама</a></li>
+              <li id="profile" class="nav-panel__item"><a href="#">Профиль</a></li>
+            </ul>
+          </nav>          
+          <div class="search-bar">
+            <form action="" target="_blank">
+              <input type="search" placeholder="Поиск по блогу" />
+            </form>
+          </div>
+		  </header>
+		  <div class="main-cont__wrapper">
+				<div class="photo-posts__cont">
+					<div class="photo-posts__box">
+						<div class="photo-posts__pic"><img src="./img/photo-post-pic-1.jpg"></img></div>
+						<div class="photo-posts__title">Отдыхаю на природе</div>
+						<div class="photo-posts__date">21.09.2020</div>
+					</div><div class="photo-posts__box">
+						<div class="photo-posts__pic"><img src="./img/photo-post-pic-2.jpg"></img></div>
+						<div class="photo-posts__title">Заканчиваю сложный проект</div>
+						<div class="photo-posts__date">15.09.2020</div>
+					</div><div class="photo-posts__box">
+						<div class="photo-posts__pic"><img src="./img/photo-post-pic-3.jpg"></img></div>
+						<div class="photo-posts__title">Переехал в новую квартиру</div>
+						<div class="photo-posts__date">11.09.2020</div>
+					</div><div class="photo-posts__box">
+						<div class="photo-posts__pic"><img src="./img/photo-post-pic-4.jpg"></img></div>
+						<div class="photo-posts__title">Осень пришла!</div>
+						<div class="photo-posts__date">28.08.2020</div>
+					</div>
+				</div>
+				<div class="write-me-smth__cont">
+					<input name="write-me" type="text" placeholder="Напишите что-нибудь"></input>
+					<a href="#" class="write-me-smth__photo-btn"></a>
+					<a href="#" class="write-me-smth__msg-btn"></a>
+				</div>
+				<div class="twitter-post__cont">
+					<div class="twitter-post__text main-cont__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</div>
+					<div class="twitter-post__date main-cont__date"><span>21.06.2020</span></div>
+				</div>
+				<div class="article-1 article__cont">
+					<div class="article__picture"><img src="./img/article-pic-1.jpg" alt="Article picture"></div>
+					<div class="article__content-cont">
+						<div class="article__content-title">Как писать код быстро и безболезненно?</div>
+						<div class="article__content-text main-cont__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</div>
+						<div class="article__footer-cont">
+							<div class="article__content-date main-cont__date"><span>21.06.2020</span></div>
+							<div class="article__content-mark"></div>
+							<div class="article__content-category">создание сайтов</div>
+							<div class="article__content-read-btn"><a href="#">Читать</a></div>
+						</div>
+					</div>
+        </div>
+        <div class="article-2 article__cont article__cont--video">
+					<div class="article__picture"><img src="./img/article-pic-2.jpg" alt="Article picture"></div>
+					<div class="article__content-cont">
+						<div class="article__content-title">Купил новый ноутбук за 150 000 руб</div>
+						<div class="article__footer-cont">
+							<div class="article__content-date main-cont__date"><span>20.06.2020</span></div>
+							<div class="article__content-mark"></div>
+							<div class="article__content-category">продвижение видео</div>
+							<div class="article__content-read-btn"><a href="#">оставить комментарий</a></div>
+						</div>
+					</div>
+				</div>
+        <div class="article-3 article__cont">
+					<div class="article__picture"><img src="./img/article-pic-3.jpg" alt="Article picture"></div>
+					<div class="article__content-cont">
+						<div class="article__content-title">Как я сходил на FrontEnd Conf 2021</div>
+						<div class="article__content-text main-cont__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.</div>
+						<div class="article__footer-cont">
+							<div class="article__content-date main-cont__date"><span>20.06.2020</span></div>
+							<div class="article__content-mark"></div>
+							<div class="article__content-category">создание сайтов</div>
+							<div class="article__content-read-btn"><a href="#">Читать</a></div>
+						</div>
+					</div>
+        </div>
+        <div class="nav-btns__cont">
+          <ul class="nav-btns__list">
+            <li class="nav-btns__item"><a href="#">&#60</a></li>
+            <li class="nav-btns__item"><a href="#">1</a></li>
+            <li class="nav-btns__item nav-btns__item--active"><a href="#">2</a></li>
+            <li class="nav-btns__item"><a href="#">3</a></li>
+            <li class="nav-btns__item"><a href="#">&#62</a></li>
+          </ul>
+        </div>
+			</div>
+      </div>
+    </div>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
